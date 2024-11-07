@@ -1,4 +1,4 @@
-const multiply = (x, y) => console.log(`${x} x ${y} = ${x * y}`);
+const multiply = require("./multiply.js");
 
 multiply(2, 3);
 multiply(2, 4);
